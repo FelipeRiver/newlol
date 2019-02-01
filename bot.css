@@ -168,3 +168,6 @@ header{
     display: inline-block;
     margin-left: -4px;
 }
+h2:hover{
+    color: #22ff68;
+}
