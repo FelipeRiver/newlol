@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, fieldset, form, label, legend, caption { border: 0pt none; font-style: inherit; font-weight: inherit; margin: 0pt; outline-color: invert; outline-style: none; outline-width: 0pt; padding: 0pt; vertical-align: baseline; }
+html { height: 100%; }
+body { background-color: #ECEDEF; background-position: top center; background-size: 100% auto; font-family: 'Roboto', sans-serif; font-weight:300; font-size: 12px; }
+#contenedor { background-color: #fff; border-radius: 5px; color: #6d6d6d; height: 390px; margin: auto auto 20px; padding: 22px; width: 550px; }
+#contenedorerror { background-color: #fff; border-radius: 5px; color: #6d6d6d; height: 260px; margin: auto auto 20px; padding: 22px; width: 380px; }
+#contenedor h1 { text-align: center; font-size: 1.7em; margin-bottom: 1em; }
+#contenedorerror h1 { text-align: center; font-size: 1.7em; margin-bottom: 1em; }
+#login { float: left; width: 267px; border-right: 2px dotted #ECEDEF; padding-right: 15px; }
+.contenido { height: 225px; position: relative; }
+.contenidoerror { height: 225px; position: relative; }
+#login .input { width: 251px; margin: 5px 0 15px 0; padding: 8px; border: 0; background-color:#ECEDEF; }
+#login label { font-weight: 500; }
+#login a { color: #5EA099; text-decoration: none; font-weight: 500; }
+#login a:hover { text-decoration: underline; }
+#registro { float: right; width: 250px; }
+#registro p { line-height: 20px; text-align: justify; margin: 0 0 20px 0; }
+#registro img { display: block; margin-left: auto; margin-right: auto; position: absolute; top: -120px; left: -125px; }
+.mensaje { margin: 205px auto 25px -22px; width: 100%; padding: 22px; background-color: rgba(256, 0, 0, 0.6); border-radius: 5px; color: #fff; float:left; }
+.ingresar { margin-top: 14px; width: 267px; background-color:#5EA099; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:3px; border:none; display:inline-block; color:#ffffff; font-family:arial; font-size:15px; padding:10px 24px; text-decoration:none; cursor: pointer; }
+.ingresar:hover { background-color:#0c7e76; }
+.registrar { width: 215px; text-align:center; background-color:#5EA099; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:3px; border:none; display:inline-block; color:#ffffff; font-family:arial; font-size:15px; padding:10px 24px; text-decoration:none; }
+.registrar:hover { background-color:#0c7e76; }
+.logout-exitoso  { margin: 50px; padding: 20px; }
+#login .google-btn{ padding: 0px;  width: 267px; height: 42px; background-color: #b5403a; display: inline-block; vertical-align: middle; color: #ffffff; text-decoration: none; }
+#login .google-btn:hover{ background-color: #9A3631; text-decoration: none; }
+#login .google-btn img{ display: inline-block; vertical-align: middle; margin-right: 15px; height: 42px; }
+
+.msg1{ display: none; }
+.logo{ width: 100%; margin: auto; text-align: center; padding: 30px 0; }
+.separador{ background: rgb(236, 237, 239) none repeat scroll 0px 0px; width: 310px; margin-left: -22px; display:none; float: left; position: relative; height: auto; }
+.separador div:nth-child(1){ background: white none repeat scroll 0% 0%; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; position: relative; float: left; left: 0px; width: 309px; height: auto; display: list-item; list-style-type: none; top: 0px; min-height: 20px; margin-bottom: 10px; }
+.separador div:nth-child(2){ background: white none repeat scroll 0% 0%; border-top-right-radius: 5px; border-top-left-radius: 5px; position: relative; float: left; left: 0px; width: 309px; height: auto; display: list-item; list-style-type: none; top: 0px; min-height: 20px; margin-top: 10px; }
+
+@media (max-width:620px) {
+	#contenedor{ height: auto !important; width: 265px; margin:auto auto 20px; background-color: #fff; border-radius: 5px; color: #6d6d6d; padding: 22px; width: 265px; }
+   	#login{ float: left; padding-right: 15px; width: 267px; border:none; }
+   	#login a { margin-top: 10px; float: left; }
+	.ingresar{ float: left; }
+	#registro { float: left; margin-top: 15px; width:265px; }
+	.contenido { position: relative; height: auto; }
+	.separador { display: block !important; }
+	.mensaje { background-color: rgba(255, 0, 0, 0.6); border-radius: 0; color: #fff; display: block; float: left; left: 22px; margin-bottom: 15px; margin-top: -10px; padding: 5px 10px; position: relative; top: 0; width: 246px; z-index: 1; }
+	.msg2{ display: none; }
+}

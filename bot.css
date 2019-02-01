@@ -1,0 +1,170 @@
+@charset "UTF-8";
+.stripe{
+    margin-top: -7px;
+    height: 18px;
+    background-color: #31998f;
+    margin-bottom: 5px;
+}
+section{
+
+    margin: 0 auto;
+    width: 945px;
+    float: inherit;
+    background-color: #fff;
+
+}
+#jap{
+    font-family: sans-serif;
+    color: #424242;
+    font-weight: bold;
+    font-size: 32px;
+    float: left;
+    margin-top: -1px;
+
+}
+header{
+    margin-top: -0.5px;
+    background-color: #fff;
+}
+#body{
+    margin: 0 auto;
+}
+#ceibal_logo{
+    height: 51.5px;
+    margin-left: 18.6%;
+
+}
+#buscar_logo{
+    height: 25px;
+    margin-left: 47%;
+
+    margin-top: -9px;
+    padding: 10px;
+}
+#persona_logo{
+    height: 25px;
+    margin-left: -4px;
+    padding: 11px;
+}
+#lineas_logo{
+    height: 25px;
+    padding: 10px;
+    margin-right: -40px;
+    margin-left: -6px;
+}
+#i{
+    height: 40px;
+    margin-left: 38%;
+}
+#g{
+    height: 40px;
+    margin-left: 8px;
+}
+#t{
+    height: 40px;
+    margin-left: 8px;
+}
+#f{
+    height: 40px;
+    margin-left: 8px;
+}
+
+#blue{
+    height: 5px;
+    width: 157.5px;
+    background-color: #2d73b5;
+    display: inline-block;
+    margin-left: -310px;
+}
+#green{
+    height: 5px;
+    width: 157.5px;
+    background-color: #20a29b;
+    display: inline-block;
+    margin-left: -3.7px;
+}
+#lgreen{
+    height: 5px;
+    width: 157.5px;
+    background-color: #98bf13;
+    display: inline-block;
+    margin-left: -3.9px;
+}
+#yellow{
+    height: 5px;
+    width: 157.5px;
+    background-color: #f6b63e;
+    display: inline-block;
+    margin-left: -4px;
+}
+#orange{
+    height: 5px;
+    width: 157.5px;
+    background-color: #e76114;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+#red{
+    height: 5px;
+    width: 157.5px;
+    background-color: #e63251;
+    display: inline-block;
+    margin-left: -4px;
+}
+#main{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #424242;
+    text-align: justify;
+}
+#sc{
+    font-family: sans-serif;
+    color: #424242;
+    font-weight: bold;
+    font-size: 26px;
+    float: left;
+}
+#oblue{
+    height: 5px;
+    width: 157.5px;
+    background-color: #2d73b5;
+    display: inline-block;
+    margin-left: -5px;
+}
+#ogreen{
+    height: 5px;
+    width: 157.5px;
+    background-color: #20a29b;
+    display: inline-block;
+    margin-left: -3.7px;
+}
+#olgreen{
+    height: 5px;
+    width: 157.5px;
+    background-color: #98bf13;
+    display: inline-block;
+    margin-left: -3.9px;
+}
+#oyellow{
+    height: 5px;
+    width: 157.5px;
+    background-color: #f6b63e;
+    display: inline-block;
+    margin-left: -4px;
+}
+#oorange{
+    height: 5px;
+    width: 157.5px;
+    background-color: #e76114;
+    display: inline-block;
+    margin-left: -4px;
+}
+
+#ored{
+    height: 5px;
+    width: 157.5px;
+    background-color: #e63251;
+    display: inline-block;
+    margin-left: -4px;
+}
