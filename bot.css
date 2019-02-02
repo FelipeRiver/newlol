@@ -124,6 +124,8 @@ header{
     font-weight: bold;
     font-size: 26px;
     float: left;
+    text-decoration: underline;
+
 }
 #oblue{
     height: 5px;
